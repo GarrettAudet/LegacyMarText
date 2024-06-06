@@ -9,4 +9,4 @@
 </p>
 
 ## About
-MarText is an application that is an online (via SMS) classified advertising service that operates as a centralized network of communities, organized by city and urban region, for posting local advertisements built by Tommy Nguyen, Matthew Orchard, Hao Zhong, Khalid Alam and Garrett Audet.
+MarText is an application that is a online (via SMS) classified advertising/search service that operates as a centralized network of communities, organized by city and urban region, for posting local advertisements and searching online information built by Tommy Nguyen, Matthew Orchard, Hao Zhong, Khalid Alam and Garrett Audet.
