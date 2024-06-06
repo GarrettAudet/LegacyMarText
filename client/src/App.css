@@ -1,0 +1,94 @@
+.phone-simulator {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 5px solid black;
+
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.message-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+    padding: 50px;
+    flex-grow: 100000;
+}
+
+.message-item {
+    display: flex;
+}
+
+.message-item--bot {
+    justify-content: flex-start;
+}
+
+.message-item--user {
+    justify-content: flex-end;
+}
+
+.message-item__content {
+    padding: .4em .8em;
+    border-radius: 10px;
+    max-width: 75%;
+    margin-bottom: .2em;
+    white-space: pre-wrap;
+}
+
+.message-item--user .message-item__content {
+    color: white;
+    background-color: slategrey;
+    border-bottom-right-radius: 0;
+}
+
+.message-item--bot .message-item__content{
+    color: white;
+    background-color: darkblue;
+    border-bottom-left-radius: 0;
+}
+
+.draft-form {
+    display: flex;
+}
+
+.draft-textarea {
+    font: inherit;
+    resize: none;
+    justify-self: stretch;
+    flex-grow: 10000000;
+    padding: .3em;
+}
+
+.send-message-button {
+    font-size: 2em;
+    background-color: tomato;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-variant: all-small-caps;
+    cursor: pointer;
+    padding: .3em .4em;
+}
+
+.send-message-button:disabled {
+    background-color: gray;
+}
+
+.phone-simulator-home{
+    text-align: center;
+}
+
+.martext-description {
+    max-width: 800px;
+    margin: 2em auto;
+    font-size: 1.25em;
+}
+
+.center-col {
+    display: flex;
+    justify-content: center;
+}
